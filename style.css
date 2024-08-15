@@ -1,0 +1,76 @@
+/* Selector universal */
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Selector de etiqueta */
+body{
+    background-color: #FFF5E4;
+    background: (circle, rgba(238,174,202,1)28%, rgba(148,187,233,1)100%);
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+h2,h3{
+    font-family: "Playwrite CU";
+}
+/* Selector de clase */
+.p1{
+    color: black;
+    font-family: "Arsenal SC";
+
+}
+.p2{
+    color: rgb(215, 84, 175);
+}
+/* Selector de ID */
+#titulo{
+    font-family: "Kalnia Glaze";
+    font-size: 50px;
+    text-align: center;
+    
+}
+.flor{
+    width: 500px;
+    height: 200px;
+    border-radius: 30px;
+    border: solid;
+    color:#FFF5E4;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.274);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    background-color: 
+    #FFD1D1;
+    margin: 5px;
+}
+.menu ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li a{
+    display: block;
+    color: rgb(10, 9, 10);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.section{
+    background-image: url("https://th.bing.com/th/id/R.4f975e752de725b880d02ac88ae486f8?rik=D%2fYoVLAuMfUOLA&pid=ImgRaw&r=0");
+    padding:15px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.subtitle{
+    text-align: center;
+}
+
